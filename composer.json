@@ -1,0 +1,27 @@
+{
+  "name": "twobes/salesforce",
+  "description": "Salesforce SDK",
+  "keywords": [
+    "twobes/salesforce",
+    "crm",
+    "salesforce",
+    "salesforce sdk",
+    "salesforcesdk"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Phuc Nguyen",
+      "homepage": "http://phucnt.net",
+      "email": "phucnt.tech@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Twobes\\Salesforce\\": "src/"
+    }
+  }
+}
