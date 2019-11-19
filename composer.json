@@ -1,5 +1,6 @@
 {
   "name": "twobes/salesforce",
+  "type": "library",
   "description": "Salesforce SDK",
   "keywords": ["crm", "salesforce", "salesforce sdk", "salesforcesdk"],
   "license": "MIT",
