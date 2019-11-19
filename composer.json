@@ -1,14 +1,7 @@
 {
   "name": "twobes/salesforce",
   "description": "Salesforce SDK",
-  "keywords": [
-    "crm",
-    "salesforce",
-    "salesforce sdk",
-    "salesforcesdk"
-  ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
+  "keywords": ["crm", "salesforce", "salesforce sdk", "salesforcesdk"],
   "license": "MIT",
   "authors": [
     {
@@ -27,7 +20,7 @@
   },
   "extra": {
     "branch-alias": {
-        "dev-master": "1.0-dev"
+        "dev-master": "1.0.x-dev"
     }
   }
 }
