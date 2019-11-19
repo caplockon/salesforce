@@ -1,27 +1,32 @@
 {
-  "name": "twobes/salesforce",
-  "type": "library",
-  "description": "Salesforce SDK",
-  "keywords": ["crm", "salesforce", "salesforce sdk", "salesforcesdk"],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Phuc Nguyen",
-      "homepage": "http://phucnt.net",
-      "email": "phucnt.tech@gmail.com"
+    "name":"twobes/salesforce",
+    "type":"library",
+    "description":"Salesforce SDK",
+    "keywords":[
+        "crm",
+        "salesforce",
+        "salesforce sdk",
+        "salesforcesdk"
+    ],
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Phuc Nguyen",
+            "homepage":"http://phucnt.net",
+            "email":"phucnt.tech@gmail.com"
+        }
+    ],
+    "require":{
+        "php":">=5.4.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Twobes\\Salesforce\\":"src/"
+        }
+    },
+    "extra":{
+        "branch-alias":{
+            "dev-master":"1.0.x-dev"
+        }
     }
-  ],
-  "require": {
-    "php": ">=5.4.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Twobes\\Salesforce\\": "src/"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-        "dev-master": "1.0.x-dev"
-    }
-  }
 }
