@@ -2,7 +2,8 @@
     "name":"twobes/salesforce",
     "type":"library",
     "description":"Salesforce SDK",
-    "homepage":"http://guzzlephp.org/",
+    "homepage":"https://github.com/twobes/salesforce/",
+    "minimum-stability":"dev",
     "keywords":[
         "crm",
         "salesforce",
